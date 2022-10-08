@@ -80,6 +80,10 @@ const About = () => {
               발행, 구매, 고정가 판매등록 및 경매가 판매등록, 경매참여 및
               경매확정, 가격제안, 판매종료 기능과 MyPage를 구현했습니다.
             </p>
+            <p>
+              주요기능 - 정렬필터, 타이머, 더보기, 검색, 좋아요, 메신저 url
+              공유, 페이지네이션
+            </p>
             <p style={{ fontSize: "14px" }}>
               모바일 반응형 웹/ redux, redux-toolkit, redux-saga / antd
             </p>
