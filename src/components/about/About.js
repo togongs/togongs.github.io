@@ -20,7 +20,6 @@ const About = () => {
           <p>이메일 jcw9828@gmail.com</p>
           <p className={classes.br}></p>
         </div>
-
         <h2 className={classes.heading}>경력</h2>
         <div className={classes.About}>
           <p>
@@ -43,109 +42,168 @@ const About = () => {
           </p>
           <p className={classes.br}></p>
         </div>
-
         {/* <h2 className={classes.heading}>학력</h2>
         <div className={classes.About}>
           <p>학점은행제 경영학 학사</p>
           <p className={classes.br}></p>
         </div> */}
-
         <h2 className={classes.heading}>전문 기술</h2>
         <div className={classes.About} style={{ marginLeft: "50px" }}>
           <li>React, NextJS, NodeJS</li>
-          <li>JavaScript(ES6)</li>
+          <li>JavaScript</li>
           <li>HTML5</li>
           <li>CSS3</li>
           <li>Bootstrap, Antd</li>
           <li>figma</li>
-          <li>Mysql, MongoDB</li>
+          <li>Mysql</li>
           <p className={classes.br}></p>
         </div>
-
         <h2 className={classes.heading}>프로젝트</h2>
         <div className={classes.About}>
           <div className={classes.label}>
-            <h4>크레파스 NFT 마켓</h4>
-            <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p>
-            <p style={{ fontSize: "14px" }}>
-              이더리움 컨트랙트를 통한 블록체인 상에서의 NFT 결제시스템에서
-              프론트엔드를 개발했습니다
-            </p>
-            <p style={{ fontSize: "14px" }}>
-              모바일 반응형 / redux-toolkit / Antd 사용 / NEXT.js
-            </p>
-            <p>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>크레파스 NFT 마켓 (2022년 5월 – 2022년 9월)</h4>
               <a href="https://www.crepas.io/" style={{ color: "#FC4A1A" }}>
                 https://www.crepas.io
               </a>
+            </div>
+            <hr></hr>
+            <p style={{ fontSize: "14px", lineHeight: "30px" }}>
+              이더리움 컨트랙트를 통한 블록체인 상에서의 NFT 결제시스템에서
+              프론트엔드를 개발했습니다. 이더리움 컨트랙트를 활용하여 NFT 생성,
+              발행, 구매, 고정가 판매등록 및 경매가 판매등록, 경매참여 및
+              경매확정, 가격제안, 판매종료 기능과 MyPage를 구현했습니다.
             </p>
+            <p style={{ fontSize: "14px" }}>
+              모바일 반응형 웹/ redux, redux-toolkit, redux-saga / antd
+            </p>
+            <p></p>
           </div>
           <p className={classes.br}></p>
         </div>
-
         <h2 className={classes.heading}>사이드 프로젝트</h2>
         <div className={classes.About}>
           <div className={classes.label}>
-            <h4>넷플릭스 </h4>
-            <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p>
-            <p>모바일 반응형 / redux-toolkit / Bootstrap</p>
-            <p>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>넷플릭스 </h4>
               <a
                 href="https://togongs-netflix.netlify.app"
                 style={{ color: "#FC4A1A" }}
               >
                 https://togongs-netflix.netlify.app
               </a>
-            </p>
+            </div>
+            <hr></hr>
+            {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
+            <div style={{ fontSize: "14px" }}>
+              <p>반응형 웹</p>
+              <p>상태 저장 라이브러리 - redux, redux-toolkit, redux-thunk</p>
+              <p>API 관리 - axios interceptors</p>
+              <p>주요기능 - 정렬필터, 검색, 페이지네이션</p>
+            </div>
           </div>
           <p className={classes.br}></p>
         </div>
         <div className={classes.About}>
           <div className={classes.label}>
-            <h4>이미지 검색 </h4>
-            <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p>
-            <p>무한스크롤 / 검색기능 </p>
-            <p>
-              <a
-                href="https://togongs-images-search.netlify.app"
-                style={{ color: "#FC4A1A" }}
-              >
-                https://togongs-images-search.netlify.app
-              </a>
-            </p>
-          </div>
-          <p className={classes.br}></p>
-        </div>
-        <div className={classes.About}>
-          <div className={classes.label}>
-            <h4>h&m </h4>
-            <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p>
-            <p>정렬기능 / 검색기능 / load more </p>
-            <p>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>H&M </h4>
               <a
                 href="https://togongs-hnm.netlify.app"
                 style={{ color: "#FC4A1A" }}
               >
                 https://togongs-hnm.netlify.app
               </a>
-            </p>
+            </div>
+            <hr></hr>
+            {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
+            <div style={{ fontSize: "14px" }}>
+              <p>반응형 웹</p>
+              <p>상태 저장 라이브러리 - redux, redux-toolkit, redux-thunk</p>
+              <p>API 관리 - axios interceptors</p>
+              <p>주요기능 - 정렬필터, 검색, 더보기, 새로고침 시 로그인 유지</p>
+            </div>
           </div>
           <p className={classes.br}></p>
         </div>
-
-        {/* <div className={classes.About}>
+        <div className={classes.About}>
           <div className={classes.label}>
-            <h4>Slack</h4>
-            <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p>
-            <p>채팅기능 / firebase 사용 / muterial UI </p>
-            <p>
-              <a href="https://www.crepas.io/" style={{ color: "#FC4A1A" }}>
-                https://www.crepas.io
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>Image Search web</h4>
+              <a
+                href="https://togongs-images-search.netlify.app"
+                style={{ color: "#FC4A1A" }}
+              >
+                https://togongs-images-search.netlify.app
               </a>
-            </p>
+            </div>
+            <hr></hr>
+            {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
+            <div style={{ fontSize: "14px" }}>
+              <p>주요기능 - 무한스크롤, 검색, 유튜브 영상 팝업</p>
+            </div>
           </div>
           <p className={classes.br}></p>
-        </div> */}
+        </div>
+        <div className={classes.About}>
+          <div className={classes.label}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>미니 장바구니</h4>{" "}
+              <a
+                href="https://togongs-mini-cart.netlify.app/"
+                style={{ color: "#FC4A1A" }}
+              >
+                https://togongs-mini-cart.netlify.app/
+              </a>
+            </div>
+            <hr></hr>
+            {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
+            <div style={{ fontSize: "14px" }}>
+              <p>반응형 웹</p>
+              <p>주요기능 - 장바구니 기능, 결제 시 장바구니 목록 유지</p>
+            </div>
+          </div>
+          <p className={classes.br}></p>
+        </div>
+        <h2 className={classes.heading}>남김글</h2>
+        <div className={classes.About}>
+          <p style={{ width: "80%", fontWeight: "600", lineHeight: "30px" }}>
+            능동적으로 프로젝트를 수행하고 다양한 기술과 협업 능력을 높이며
+            프론트엔드 웹 개발자가 지녀야 할 자질을 쌓기위해 노력중이고 앞으로도
+            그럴것입니다. 항상 새로운 기술에 대한 관심과 배우고자 하는 열망을
+            바탕으로 업무에 임하겠습니다.
+          </p>
+        </div>
       </div>
     </div>
   );
