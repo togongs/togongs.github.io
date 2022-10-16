@@ -75,12 +75,14 @@ const About = () => {
             </div>
             <hr></hr>
             <p style={{ fontSize: "14px", lineHeight: "30px" }}>
-              이더리움 컨트랙트를 통한 블록체인 상에서의 NFT 결제시스템에서
-              프론트엔드를 개발했습니다. 이더리움 컨트랙트를 활용하여 NFT 생성,
-              발행, 구매, 고정가 판매등록 및 경매가 판매등록, 경매참여 및
-              경매확정, 가격제안, 판매종료 기능과 MyPage를 구현했습니다.
+              이더리움 컨트랙트를 통한 블록체인 NFT 결제시스템에서 프론트엔드
+              개발했습니다.
+              <br></br>
+              이더리움 컨트랙트를 활용하여 NFT 생성, 발행, 구매, 고정가 판매등록
+              및 경매가 판매등록, 경매참여 및 경매확정, 가격제안, 판매종료
+              기능과 MyPage를 구현했습니다.
             </p>
-            <p>
+            <p style={{ fontSize: "14px" }}>
               주요기능 - 정렬필터, 타이머, 더보기, 검색, 좋아요, 메신저 url
               공유, 페이지네이션
             </p>
@@ -112,10 +114,10 @@ const About = () => {
             <hr></hr>
             {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
             <div style={{ fontSize: "14px" }}>
-              <p>반응형 웹</p>
-              <p>상태 저장 라이브러리 - redux, redux-toolkit, redux-thunk</p>
-              <p>API 관리 - axios interceptors</p>
-              <p>주요기능 - 정렬필터, 검색, 페이지네이션</p>
+              <p>정렬필터, 검색, 페이지네이션, 유튜브 영상 팝업</p>
+              <p>반응형 웹(react bootstrap)</p>
+              <p>redux / redux-toolkit / redux-thunk</p>
+              <p>axios interceptors</p>
             </div>
           </div>
           <p className={classes.br}></p>
@@ -140,10 +142,10 @@ const About = () => {
             <hr></hr>
             {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
             <div style={{ fontSize: "14px" }}>
-              <p>반응형 웹</p>
-              <p>상태 저장 라이브러리 - redux, redux-toolkit, redux-thunk</p>
-              <p>API 관리 - axios interceptors</p>
-              <p>주요기능 - 정렬필터, 검색, 더보기, 새로고침 시 로그인 유지</p>
+              <p>정렬필터, 검색, 더보기, 새로고침 시 로그인 유지</p>
+              <p>반응형 웹(react bootstrap)</p>
+              <p>redux / redux-toolkit / redux-thunk</p>
+              <p>axios interceptors</p>
             </div>
           </div>
           <p className={classes.br}></p>
@@ -157,7 +159,7 @@ const About = () => {
                 justifyContent: "space-between",
               }}
             >
-              <h4>Image Search web</h4>
+              <h4>이미지 검색 웹</h4>
               <a
                 href="https://togongs-images-search.netlify.app"
                 style={{ color: "#FC4A1A" }}
@@ -168,7 +170,7 @@ const About = () => {
             <hr></hr>
             {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
             <div style={{ fontSize: "14px" }}>
-              <p>주요기능 - 무한스크롤, 검색, 유튜브 영상 팝업</p>
+              <p>무한스크롤, 검색</p>
             </div>
           </div>
           <p className={classes.br}></p>
@@ -182,7 +184,7 @@ const About = () => {
                 justifyContent: "space-between",
               }}
             >
-              <h4>미니 장바구니</h4>{" "}
+              <h4>미니 장바구니</h4>
               <a
                 href="https://togongs-mini-cart.netlify.app/"
                 style={{ color: "#FC4A1A" }}
@@ -193,8 +195,32 @@ const About = () => {
             <hr></hr>
             {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
             <div style={{ fontSize: "14px" }}>
-              <p>반응형 웹</p>
-              <p>주요기능 - 장바구니 기능, 결제 시 장바구니 목록 유지</p>
+              <p>장바구니 기능, 결제 시 장바구니 목록 유지</p>
+            </div>
+          </div>
+          <p className={classes.br}></p>
+        </div>
+        <div className={classes.About}>
+          <div className={classes.label}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>배경화면 검색 엔진</h4>
+              <a
+                href="https://togongs-wallpaper-search-engine.netlify.app/"
+                style={{ color: "#FC4A1A" }}
+              >
+                https://togongs-wallpaper-search-engine.netlify.app/
+              </a>
+            </div>
+            <hr></hr>
+            {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
+            <div style={{ fontSize: "14px" }}>
+              <p>페이지네이션, 정렬/필터링, 최근검색어</p>
             </div>
           </div>
           <p className={classes.br}></p>
@@ -203,9 +229,9 @@ const About = () => {
         <div className={classes.About}>
           <p style={{ width: "80%", fontWeight: "600", lineHeight: "30px" }}>
             능동적으로 프로젝트를 수행하고 다양한 기술과 협업 능력을 높이며
-            프론트엔드 웹 개발자가 지녀야 할 자질을 쌓기위해 노력중이고 앞으로도
-            그럴것입니다. 항상 새로운 기술에 대한 관심과 배우고자 하는 열망을
-            바탕으로 업무에 임하겠습니다.
+            프론트엔드 웹 개발자가 지녀야 할 <br></br>자질을 쌓기위해 노력중이고
+            앞으로도 그럴것입니다. <br></br>항상 새로운 기술에 대한 관심과
+            배우고자 하는 열망을 바탕으로 업무에 임하겠습니다.
           </p>
         </div>
       </div>
