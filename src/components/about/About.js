@@ -150,31 +150,7 @@ const About = () => {
           </div>
           <p className={classes.br}></p>
         </div>
-        <div className={classes.About}>
-          <div className={classes.label}>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-              }}
-            >
-              <h4>이미지 검색 웹</h4>
-              <a
-                href="https://togongs-images-search.netlify.app"
-                style={{ color: "#FC4A1A" }}
-              >
-                https://togongs-images-search.netlify.app
-              </a>
-            </div>
-            <hr></hr>
-            {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
-            <div style={{ fontSize: "14px" }}>
-              <p>무한스크롤, 검색</p>
-            </div>
-          </div>
-          <p className={classes.br}></p>
-        </div>
+
         <div className={classes.About}>
           <div className={classes.label}>
             <div
@@ -220,7 +196,7 @@ const About = () => {
             <hr></hr>
             {/* <p style={{ fontSize: "15px" }}>2022년 5월 – 2021년 9월</p> */}
             <div style={{ fontSize: "14px" }}>
-              <p>페이지네이션, 정렬/필터링, 최근검색어</p>
+              <p>무한스크롤, 정렬/필터링, 최근검색어</p>
             </div>
           </div>
           <p className={classes.br}></p>
