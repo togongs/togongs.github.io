@@ -49,11 +49,11 @@ const About = () => {
         </div> */}
         <h2 className={classes.heading}>전문 기술</h2>
         <div className={classes.About} style={{ marginLeft: "50px" }}>
-          <li>React, NextJS, NodeJS</li>
-          <li>JavaScript</li>
+          <li>NextJS, React</li>
+          <li>JavaScript, TypeScript</li>
           <li>HTML5</li>
           <li>CSS3</li>
-          <li>Bootstrap, Antd</li>
+          <li>React Bootstrap, Antd</li>
           <li>figma</li>
           <li>Mysql</li>
           <p className={classes.br}></p>
@@ -86,13 +86,53 @@ const About = () => {
               주요기능 - 정렬필터, 타이머, 더보기, 검색, 좋아요, 메신저 url
               공유, 페이지네이션
             </p>
-            <p style={{ fontSize: "14px" }}>
-              모바일 반응형 웹/ redux, redux-toolkit, redux-saga / antd
+            <p style={{ fontSize: "14px", fontWeight: "800" }}>
+              스킬 - NextJs / 모바일 반응형 웹/ redux, redux-toolkit, redux-saga
+              / antd
             </p>
             <p></p>
           </div>
           <p className={classes.br}></p>
         </div>
+
+        <div className={classes.About}>
+          <div className={classes.label}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              <h4>탑스키 (2022년 11월 - 2022년 12월 (진행중) ) </h4>
+              <a
+                href="https://leports.thenamed.co.kr/"
+                style={{ color: "#FC4A1A" }}
+              >
+                https://leports.thenamed.co.kr
+              </a>
+            </div>
+            <hr></hr>
+            <p style={{ fontSize: "14px", lineHeight: "30px" }}>
+              스키 강습 예약 웹사이트에서 프론트엔드 개발했습니다
+              <br></br>
+              주요 기능 - mainPage 팝업, 인증시간 Timer, Id/Pw 찾기, PW변경,
+              로그인/회원가입 form 유효성검사 및 error message 커스텀 기능과
+              모든페이지를 구현했습니다.
+            </p>
+            {/* <p style={{ fontSize: "14px" }}>
+              주요기능 - 정렬필터, 타이머, 더보기, 검색, 좋아요, 메신저 url
+              공유, 페이지네이션
+            </p> */}
+            <p style={{ fontSize: "14px", fontWeight: "800" }}>
+              스킬 - NextJs, Typescript, styled-components, 모바일 반응형 웹,
+              redux, redux-toolkit, redux-thunk
+            </p>
+            <p></p>
+          </div>
+          <p className={classes.br}></p>
+        </div>
+
         <h2 className={classes.heading}>사이드 프로젝트</h2>
         <div className={classes.About}>
           <div className={classes.label}>
