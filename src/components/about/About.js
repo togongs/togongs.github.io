@@ -87,8 +87,8 @@ const About = () => {
               공유, 페이지네이션
             </p>
             <p style={{ fontSize: "14px", fontWeight: "800" }}>
-              스킬 - NextJs / 모바일 반응형 웹/ redux, redux-toolkit, redux-saga
-              / antd
+              스킬 - Next.js / 모바일 반응형 웹/ redux, redux-toolkit,
+              redux-saga / antd
             </p>
             <p></p>
           </div>
@@ -125,7 +125,7 @@ const About = () => {
               공유, 페이지네이션
             </p> */}
             <p style={{ fontSize: "14px", fontWeight: "800" }}>
-              스킬 - NextJs, Typescript, styled-components, 모바일 반응형 웹,
+              스킬 - Next.js, Typescript, styled-components, 모바일 반응형 웹,
               redux, redux-toolkit, redux-thunk
             </p>
             <p></p>
