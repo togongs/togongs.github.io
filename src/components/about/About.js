@@ -118,7 +118,8 @@ const About = () => {
               <br></br>
               주요 기능 - mainPage 팝업, 인증시간 Timer, Id/Pw 찾기, PW변경,
               로그인/회원가입 form 유효성검사 및 error message 커스텀 기능과
-              모든페이지를 구현했습니다.
+              모든페이지를 구현했습니다. dynamic import를 활용하여 컴포넌트
+              사이즈를 줄여 렌더링 시 웹 성능을 개선했습니다.
             </p>
             {/* <p style={{ fontSize: "14px" }}>
               주요기능 - 정렬필터, 타이머, 더보기, 검색, 좋아요, 메신저 url
@@ -157,7 +158,6 @@ const About = () => {
               <p>정렬필터, 검색, 페이지네이션, 유튜브 영상 팝업</p>
               <p>반응형 웹(react bootstrap)</p>
               <p>redux / redux-toolkit / redux-thunk</p>
-              <p>axios interceptors</p>
             </div>
           </div>
           <p className={classes.br}></p>
@@ -185,7 +185,6 @@ const About = () => {
               <p>정렬필터, 검색, 더보기, 새로고침 시 로그인 유지</p>
               <p>반응형 웹(react bootstrap)</p>
               <p>redux / redux-toolkit / redux-thunk</p>
-              <p>axios interceptors</p>
             </div>
           </div>
           <p className={classes.br}></p>
